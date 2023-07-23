@@ -13,6 +13,7 @@
         <input type="text" id="description" name="description" class="form-control"
             @isset($description)value="{{ $description }}"@endisset>
 
+        <label for="completed" class="form-label">Pendencia</label>
         <input type="boolean" id="completed" name="completed" class="form-control"
             @isset($completed)value="{{ $completed }}"@endisset>
     </div>
