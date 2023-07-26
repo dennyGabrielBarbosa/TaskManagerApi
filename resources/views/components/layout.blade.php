@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-bs-theme="dark">
 
 <head>
     <meta charset="UTF-8">
@@ -9,7 +9,7 @@
 </head>
 <div class="container">
 
-    <body>
+    <body class="container bg-dark text-white p-4">
         <h1>{{ $title }}</h1>
 
         {{ $slot }}
